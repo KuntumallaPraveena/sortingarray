@@ -17,6 +17,12 @@ namespace sortingarray
             {
                 Console.Write(numbers[i]);
             }
+            Array.Reverse(numbers);
+            Console.WriteLine("\nSorted array in descending order:");
+            for (int i = 0; i < numbers.Length; i++)
+            {
+                Console.Write(numbers[i]);
+            }
         }
     }
 }
